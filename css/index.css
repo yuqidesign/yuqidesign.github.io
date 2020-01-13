@@ -1,0 +1,111 @@
+body{
+    background: url("../images/bg.jpeg") no-repeat center 0/100% #000;
+    padding: 30px 0;
+    min-width: 1200px;
+    font-family: 'IBM Plex Sans';
+}
+
+.container{
+    margin-top: 20px;
+    width:75%;
+    margin:0 auto;
+    /* background-color: rgba(255, 255, 255, .3); */
+    height: 750px;
+}
+
+.container .nav{
+    position: relative;
+    width: 100%;
+    font-weight: 300;
+    height: 100px;
+    background-color:rgba(0, 0, 0, .7);
+}
+
+.container .nav .logo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+
+}
+
+.container .nav .logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.container .nav .left-nav{
+    float:left;
+}
+
+.container .nav .right-nav{
+    float: right;
+}
+
+.container .nav .left-nav a,
+.container .nav .right-nav a{
+    line-height: 100px;
+    margin: 0 20px;
+    padding: 20px;
+    color: white;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container .slogan{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    line-height: 100px;
+    /* background-color: rgba(255, 255, 255, .3); */
+    padding:80px 0;
+    box-sizing: border-box;
+    font-family: 'Quarto';
+    font-size: 100px;
+    font-weight: 900;
+    color: white;
+}
+
+.container .activity{
+    width: 100%;
+    height: 250px;
+    /* background-color: rgba(255, 255, 255, .3); */
+}
+
+.container .activity .item li{
+    float: left;
+    width: 250px;
+    box-sizing: border-box;
+
+    height: 250px;
+    background-color: rgba(255, 255, 255, .7);
+    margin-right: 26px;
+}
+
+/* .container .activity .item ul:last-child{
+    margin-right: 0;
+} */
+
+.work{
+    position: relative;
+    height: 250px;
+}
+
+.work .title{
+    
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgb(46, 46, 46);
+    position: absolute;
+    bottom:0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5em;
+    color: white;
+
+}
