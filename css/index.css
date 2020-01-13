@@ -2,7 +2,7 @@ body{
     background: url("../images/bg.jpeg") no-repeat center 0/100% #000;
     padding: 30px 0;
     min-width: 1200px;
-    font-family: 'IBM Plex Sans';
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .container{
@@ -53,6 +53,11 @@ body{
     box-sizing: border-box;
     font-size: 20px;
     font-weight: 400;
+}
+
+.container .nav .left-nav a:hover,
+.container .nav .right-nav a:hover{
+    background-color:rgba(0, 0, 0, 1);
 }
 
 .container .slogan{
