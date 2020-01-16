@@ -1,6 +1,6 @@
 body{
     /* background: url("../images/bg.jpeg") no-repeat center 0/105% #000; */
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(0, 0, 0);
     padding: 30px 0;
     min-width: 1200px;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -8,24 +8,27 @@ body{
 
 .container{
     margin-top: 20px;
-    width:75%;
+    width:80%;
     margin:0 auto;
     /* background-color: rgba(255, 255, 255, .3); */
-    height: 750px;
+    /* height: 750px; */
 }
 
 .container .nav{
     position: relative;
     width: 100%;
     height: 100px;
-    background-color:rgba(0, 0, 0, .7);
+    /* background-color:rgba(0, 0, 0, .7); */
+    /* border-bottom: 1px solid rgb(164, 164, 164); */
 }
+
+
 
 .container .nav .logo{
     position: absolute;
-    left: 0;
+    left: -34px;
     right: 0;
-    margin: 0 auto;
+    margin: 0 0;
     width: 100px;
     height: 100px;
     opacity: 70%;
@@ -45,29 +48,29 @@ body{
     height: 100px;
 }
 
-.container .nav .left-nav{
-    float:left;
-}
-
-.container .nav .right-nav{
+.container .nav .navitem{
     float: right;
 }
 
-.container .nav .left-nav a,
-.container .nav .right-nav a{
+.container .nav .navitem a{
     line-height: 100px;
-    margin: 0 20px;
-    padding: 20px;
+    margin: 0 25px;
+    padding: 15px 0;
     color: rgba(255, 255, 255, 0.746);
     box-sizing: border-box;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 500;
 }
 
-.container .nav .left-nav a:hover,
-.container .nav .right-nav a:hover{
+.container .nav .navitem :last-child{
+    padding-right: 0;
+}
+
+.container .nav .navitem a:hover{
     color: white;
-    transition:ease-in-out .5s ;
+    text-shadow: 2px 2px 0px #1ccece;
+    transition:ease-in-out .2s ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.459);
 }
 
 .container .slogan{
@@ -78,53 +81,81 @@ body{
     /* background-color: rgba(255, 255, 255, .3); */
     padding:80px 0;
     box-sizing: border-box;
-    font-size: 100px;
+    font-size: 70px;
     font-weight: 900;
+    font-style: italic;
     color: white;
 }
 
 .container .activity{
     width: 100%;
-    height: 250px;
-    /* background-color: rgba(255, 255, 255, .3); */
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 80px);
+    background-color: rgba(255, 255, 255, .3);
 }
 
-.container .activity .item li{
-    float: left;
-    box-sizing: border-box;
-    margin-right: 26px;
-}
-
-/* .container .activity .item ul:last-child{
-    margin-right: 0;
+/* .container .activity div{
+    border: 2px solid white;
 } */
 
-
-.work{
-    position: relative;
-    background-color: rgba(255, 255, 255, .7);
-    width: 250px;
-    height: 250px;
-    transition: all .5s ease-in;
+.container .activity .work1{
+    grid-area: 1/1/span 4/span 1;
+    background-color: royalblue;
 }
 
-.work:hover{
-    bottom: 6px;
-    box-shadow:0 7px 10px rgba(0, 0, 0, .15);
+.container .activity .work2{
+    grid-area: 1/2/span 4/span 1;
+    background-color: rgb(62, 218, 176);
 }
 
-.work .title{
-    
+.container .activity .intro{
     width: 100%;
-    height: 70px;
-    line-height: 70px;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    bottom:0px;
+    height: 100%;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 25px;
+    opacity: 0;
     box-sizing: border-box;
-    text-align: center;
-    font-weight: 400;
-    font-size: 1.5em;
-    color: rgb(173, 173, 173);
-
 }
+
+.container .activity .intro:hover{
+    opacity: 100%;
+    transition: ease-in-out .2s;
+}
+
+.container .activity .intro span{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    margin: 15px 0;
+}
+
+.container .activity .more{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color:#262626;
+    line-height: 80px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: right;
+    font-size: 35px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+.container .activity .more i{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.container .activity .more:hover{
+    transition: .2s ease-in-out;
+    background-color: #373737;
+    color: rgba(255, 255, 255, 0.8);
+    
+}
+
