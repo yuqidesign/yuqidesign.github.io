@@ -1,0 +1,94 @@
+.body{
+    position: relative;
+}
+
+
+.bbg{
+    width: 100%;
+    height: 500px;
+    /* background-color: teal; */
+    background-image: url("../images/douban1.jpg") ;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content .title{
+    color: white;
+    width: 100%;
+    height: 150px;
+    line-height: 1.2;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 20px auto;
+    margin-bottom: 80px;
+}
+
+.title span{
+    margin: 30px 0;
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.content{
+    width: 65%;
+    padding: 20px;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin: 380px auto;
+    margin-bottom: 150px;
+    /* background-color: teal; */
+}
+
+.pager{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 200px;
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 50% 50%;
+}
+
+.pager a{
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #262626;
+    font-size: 20px;
+    font-weight: 300;
+    transition: .2s ease-in-out;
+    color: rgba(255, 255, 255, 0.726);
+}
+
+/* .pager a:first-of-type:hover{
+    background-image: url("../images/douban.jpg");
+    transition: .2s ease-in-out;
+} */
+
+.pager a span{
+    margin-top: 20px;
+    font-size: 35px;
+    display: block;
+    font-weight: 500;
+    color: white;
+    line-height: 1.2;
+}
+
+.pager a:hover{
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #373737;
+    color: white;
+    transition: .2s ease-in-out;
+}
+
+.pager:first-child{
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.pager:last-child{
+    grid-area: 1 / 2 / span 1 / span 1;
+}
