@@ -18,8 +18,10 @@
     margin-bottom: 10px;
 }
 
-.blogs a img{
-    background-color: teal;
+.blogs a .blogImage{
+    background-image: url("../images/douban1.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .blogs a .bIntro{
