@@ -17,6 +17,10 @@ h1{
     grid-template-rows: repeat(1fr, 4);
 }
 
+.works:last-child{
+    color: #555555;
+}
+
 .works .workItem{
     background-color: #262626;
 }
