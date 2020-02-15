@@ -28,12 +28,25 @@
 
 .container .activity .work1 {
   grid-area: 1/1 / span 4 / span 1;
-  background-color: royalblue;
+  background-image: url("../images/sharebox.jpg");
+  background-size: 100%;
+  background-position: center;
+  transition: linear 0.2s;
 }
 
 .container .activity .work2 {
   grid-area: 1/2 / span 4 / span 1;
-  background-color: rgb(62, 218, 176);
+  /* background-color: rgb(62, 218, 176); */
+  background-image: url("../images/prepal.jpg");
+  background-size: 100%;
+  background-position: center;
+  transition: linear 0.2s;
+}
+
+.container .activity .work1:hover,
+.container .activity .work2:hover {
+  background-size: 105%;
+  transition: linear 0.2s;
 }
 
 .container .activity .intro {
@@ -51,6 +64,7 @@
 .container .activity .intro:hover {
   opacity: 100%;
   transition: ease-in-out 0.2s;
+  background-size: cover;
 }
 
 .container .activity .intro span {
