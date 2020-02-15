@@ -18,7 +18,8 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  // background(0);
+  clear();
   translate(width / 2, height / 2);
   for (let i = 0; i < stars.length; i++) {
     stars[i].update();
