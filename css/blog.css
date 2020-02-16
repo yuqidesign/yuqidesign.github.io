@@ -31,13 +31,14 @@ h1 {
 }
 
 .blogs a #blogImage2 {
-  background: url("../images/choice.jpg") no-repeat;
+  background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1R3L7r2c5mwiXaW.h*4sOnUmMfHgjSKgWYhw1PWMhaAI5a8bSMa20EBzWmwYTmW2.fvssrSI9PulMTuCxwLXO8s!/r")
+    no-repeat;
   background-position: center 100%;
   background-size: 230%;
 }
 
 .blogs a #blogImage3 {
-  background-image: url("../images/douban1.jpg");
+  background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1RGNxMGXsfriEnSiuLX9.wqPSNzciA3fJItx6FjTihc.*S9GJoZzQeclp3bsnb3B8C0DTrPfYEsg4344yblZI0k!/r");
   background-position: center 97%;
   background-size: 250%;
 }
