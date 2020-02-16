@@ -6,7 +6,7 @@
   width: 100%;
   height: 500px;
   /* background-color: teal; */
-  background: url("../images/douban1.jpg");
+  background: url("https://i.postimg.cc/hPQYvB2M/douban1.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position-y: -320px;
@@ -21,7 +21,7 @@
   width: 100%;
   height: 500px;
   /* background-color: teal; */
-  background: url("../images/choice.jpg");
+  background: url("https://i.postimg.cc/dV8SR9Py/choice.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position-y: 0px;
@@ -36,7 +36,7 @@
   width: 100%;
   height: 500px;
   /* background-color: teal; */
-  background: url("../images/leanux.jpg");
+  background: url("https://i.postimg.cc/htF575wn/leanux.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position-y: -320px;
@@ -80,11 +80,20 @@
 
 .content #img1 {
   width: 100%;
-  height: 500px;
+  height: 700px;
+  background: url("../images/blog/choice/shop0.jpg") no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 10px 0;
+}
+
+.content #img2 {
+  width: 100%;
+  height: 600px;
   background: url("../images/blog/choice/shop.jpg") no-repeat;
   background-size: contain;
   background-position: center;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .pager {
