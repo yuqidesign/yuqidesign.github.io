@@ -36,7 +36,7 @@
 
 .container .activity .work1 {
   grid-area: 1/1 / span 4 / span 1;
-  background-image: url("../images/sharebox.jpg");
+  background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q3kRdes/jASqEt644m*KNERKGtvN1QPV2ahgaqPhotpDreK7NSh7G3vb85vzBPvnXD5rVkud0a*ork*huQxOynmkUQQfEbEChkoL9jwfSjLDmv7XgK4!/r");
   background-size: 100%;
   background-position: center;
   transition: linear 0.2s;
@@ -45,7 +45,7 @@
 .container .activity .work2 {
   grid-area: 1/2 / span 4 / span 1;
   /* background-color: rgb(62, 218, 176); */
-  background-image: url("../images/prepal.jpg");
+  background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q3kRdes/jASqEt644m*KNERKGtvN1ULntNdQeG2GGiRxHmLeo.z1NDDdMvYGwQqU2xpwKxhXn1*GEtyVDbmtkxkkyr7LwRUJH7RPmkOKhNAL6FUpjLA!/r");
   background-size: 100%;
   background-position: center;
   transition: linear 0.2s;
@@ -120,7 +120,7 @@
 
 .container .blog .blogItem1 {
   grid-area: 1/1 / span 1 / span 1;
-  background-image: url("../images/leanux.jpg");
+  background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1ajCNe7y.qtDOZM3AQNz49oS*lXvBM1Zw5.3rywafDx30I6M1reuihcV*6XRy0Imluvr.p7jIuQm2ChrYYcqIXY!/r");
   background-position: center;
   display: relative;
   height: 450px;
@@ -128,7 +128,8 @@
 
 .container .blog .blogItem2 {
   grid-area: 1/2 / span 1 / span 1;
-  background: url("../images/choice.jpg") no-repeat;
+  background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1R3L7r2c5mwiXaW.h*4sOnUmMfHgjSKgWYhw1PWMhaAIYU7n*WwH5HUlYm68AMr8Uqee4jRor80MJPBtREOPIG8!/r")
+    no-repeat;
   background-size: 261%;
   background-position: 9% 205%;
   height: 450px;
