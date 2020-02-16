@@ -1,71 +1,109 @@
-.body{
-    position: relative;
+.body {
+  position: relative;
 }
 
-
-.bbg{
-    width: 100%;
-    height: 500px;
-    /* background-color: teal; */
-    background: url("../images/douban1.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position-y: -320px;
-    background-position-x: center;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
+.bbg {
+  width: 100%;
+  height: 500px;
+  /* background-color: teal; */
+  background: url("../images/douban1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-y: -320px;
+  background-position-x: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.content .title{
-    color: white;
-    width: 100%;
-    height: 150px;
-    line-height: 1.2;
-    font-size: 60px;
-    font-weight: 700;
-    margin: 20px auto;
-    margin-bottom: 80px;
+.bbg2 {
+  width: 100%;
+  height: 500px;
+  /* background-color: teal; */
+  background: url("../images/choice.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-y: 0px;
+  background-position-x: center;
+  background-size: 130%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.title span{
-    margin: 30px 0;
-    display: block;
-    font-size: 20px;
-    font-weight: 300;
-    color: rgba(255, 255, 255, 0.753);
+.bbg3 {
+  width: 100%;
+  height: 500px;
+  /* background-color: teal; */
+  background: url("../images/leanux.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-y: -320px;
+  background-position-x: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.content{
-    width: 65%;
-    padding: 20px;
-    line-height: 1.5;
-    font-size: 20px;
-    font-weight: 500;
-    color: white;
-    margin: 380px auto;
-    margin-bottom: 150px;
-    /* background-color: teal; */
+.content .title {
+  color: white;
+  width: 100%;
+  height: 150px;
+  line-height: 1.2;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 20px auto;
+  margin-bottom: 80px;
 }
 
-.pager{
-    width: 100%;
-    height: 200px;
-    margin-bottom: 200px;
-    display: grid;
-    grid-template-rows: 200px;
-    grid-template-columns: 50% 50%;
+.title span {
+  margin: 30px 0;
+  display: block;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.753);
 }
 
-.pager a{
-    padding: 30px;
-    box-sizing: border-box;
-    background-color: #262626;
-    font-size: 20px;
-    font-weight: 300;
-    transition: .2s ease-in-out;
-    color: rgba(255, 255, 255, 0.726);
+.content {
+  width: 65%;
+  padding: 20px;
+  line-height: 1.7;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(221, 221, 221);
+  margin: 380px auto;
+  margin-bottom: 150px;
+  /* background-color: rgba(50, 50, 50, 0.658); */
+}
+
+.content #img1 {
+  width: 100%;
+  height: 500px;
+  background: url("../images/blog/choice/shop.jpg") no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 20px 0;
+}
+
+.pager {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 200px;
+  display: grid;
+  grid-template-rows: 200px;
+  grid-template-columns: 50% 50%;
+}
+
+.pager a {
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #262626;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-in-out;
+  color: rgba(255, 255, 255, 0.726);
 }
 
 /* .pager a:first-of-type:hover{
@@ -73,27 +111,28 @@
     transition: .2s ease-in-out;
 } */
 
-.pager a span{
-    margin-top: 20px;
-    font-size: 35px;
-    display: block;
-    font-weight: 500;
-    color: white;
-    line-height: 1.2;
+.pager a span {
+  margin-top: 20px;
+  font-size: 35px;
+  display: block;
+  font-weight: 500;
+  color: white;
+  line-height: 1.2;
+  padding-bottom: 10px;
 }
 
-.pager a:hover{
-    font-size: 20px;
-    font-weight: 300;
-    background-color: #373737;
-    color: white;
-    transition: .2s ease-in-out;
+.pager a:hover {
+  font-size: 20px;
+  font-weight: 300;
+  background-color: #373737;
+  color: white;
+  transition: 0.2s ease-in-out;
 }
 
-.pager:first-child{
-    grid-area: 1 / 1 / span 1 / span 1;
+.pager:first-child {
+  grid-area: 1 / 1 / span 1 / span 1;
 }
 
-.pager:last-child{
-    grid-area: 1 / 2 / span 1 / span 1;
+.pager:last-child {
+  grid-area: 1 / 2 / span 1 / span 1;
 }
