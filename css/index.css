@@ -234,14 +234,23 @@
 }
 
 .about #name:hover {
-  background-image: url("../images/WechatIMG1-01.jpg");
+  background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q3kRdes/jASqEt644m*KNERKGtvN1am0d6eHt*WjKuc4CY.Pr61Y5zX4cxSRy8Bu2mM3FBN3Ox5Pw8vYIlYbFh7NuZbfPn3QZ5HxSN4lEGf23B*92fE!/r");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 20% -10%;
+  transition: 1s ease-in-out;
 }
 
 .about #address {
   grid-area: 1 / 2 / span 1 / span 1;
+}
+
+.about #address:hover {
+  background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q3kRdes/jASqEt644m*KNERKGtvN1e.4tkeAzEZFgkKC.uXWZ*he5tVDYEPfJTLpGwBafbljSkk.TmWu2I5w2*UQRUFtNQWva*m6Dg84.VGKbmF6NVg!/r");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position-x: 30%;
+  transition: 1s ease-in-out;
 }
 
 .about #school {
@@ -249,12 +258,23 @@
 }
 
 .about #school:hover {
-  background-image: url("http://img0.imgtn.bdimg.com/it/u=2785291050,2761446550&fm=26&gp=0.jpg");
+  background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q3kRdes/jASqEt644m*KNERKGtvN1WqU94JLDDV2Gnp4P.QxhszLspmPxL3ByPd.x6XoyTCLIw7GckDlaEDambM4tXLHt7LTH4LUZ5TzESAdGb12pZU!/r");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: 30%;
+  background-position-x: 50%;
+  transition: 1s ease-in-out;
 }
 
 .about #hobby {
+  position: relative;
   grid-area: 1 / 3 / span 2 / span 1;
+}
+
+.about #hobby:hover {
+  background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q3kRdes/jASqEt644m*KNERKGtvN1VbAxCSfaNXJimPyN69ezp4jlPBdRRBPgUshhvTaFMjrbzNPqLmBlbDHbTxhaRMDjwf*0w6oSjCdf.ytpuSwGS4!/r");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 50%;
+  /* opacity: 1; */
+  transition: 1s ease-in-out;
 }
