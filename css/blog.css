@@ -2,7 +2,7 @@
   margin-top: 30px;
   margin-bottom: 200px;
   width: 100%;
-  height: 900px;
+  height: 1200px;
 }
 
 h1 {
@@ -21,6 +21,13 @@ h1 {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
   margin-bottom: 10px;
+}
+
+.blogs a #blogImage0 {
+  background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1ZougtTlL*2MMSL4DDBaKW28cIXKUmYd08cBzs5ccLCGq9jQTTtt9A6kVUHIg33Ie.hf*btGzGzWZd5*kmapMQU!/r")
+    no-repeat;
+  background-position: center 90%;
+  background-size: 270%;
 }
 
 .blogs a #blogImage1 {
