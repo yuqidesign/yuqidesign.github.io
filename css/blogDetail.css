@@ -128,6 +128,7 @@
   font-weight: 300;
   transition: 0.2s ease-in-out;
   color: rgba(255, 255, 255, 0.726);
+  cursor: pointer;
 }
 
 /* .pager a:first-of-type:hover{
@@ -151,6 +152,7 @@
   background-color: #373737;
   color: white;
   transition: 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .pager:first-child {

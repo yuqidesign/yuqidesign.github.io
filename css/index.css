@@ -120,19 +120,19 @@
 
 .container .blog .blogItem1 {
   grid-area: 1/1 / span 1 / span 1;
-  background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1ajCNe7y.qtDOZM3AQNz49oS*lXvBM1Zw5.3rywafDx30I6M1reuihcV*6XRy0Imluvr.p7jIuQm2ChrYYcqIXY!/r");
-  background-position: center;
-  background-size: 320%;
+  background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1ZougtTlL*2MMSL4DDBaKW28cIXKUmYd08cBzs5ccLCGq9jQTTtt9A6kVUHIg33Ie.hf*btGzGzWZd5*kmapMQU!/r");
+  background-position: center 125%;
+  background-size: 250%;
   display: relative;
   height: 450px;
 }
 
 .container .blog .blogItem2 {
   grid-area: 1/2 / span 1 / span 1;
-  background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1R3L7r2c5mwiXaW.h*4sOnUmMfHgjSKgWYhw1PWMhaAIYU7n*WwH5HUlYm68AMr8Uqee4jRor80MJPBtREOPIG8!/r")
+  background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1ajCNe7y.qtDOZM3AQNz49oS*lXvBM1Zw5.3rywafDx3ZE0MDVBF3sNsv*v0vaTv0bGZDZIZb3VQ321ZdGfqscQ!/r")
     no-repeat;
-  background-size: 261%;
-  background-position: 9% 205%;
+  background-size: 320%;
+  background-position: center;
   height: 450px;
 }
 
