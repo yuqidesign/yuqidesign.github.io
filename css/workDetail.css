@@ -1,0 +1,168 @@
+.body {
+  position: relative;
+}
+
+.bbg {
+  width: 100%;
+  height: 500px;
+  /* background-color: teal; */
+  background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q3l9oZB/jASqEt644m*KNERKGtvN1auyrsMuS63lAOjMrSEHlBq4X0L5Pxuk5XEoijxDffbO9N46C1SPxnqiVmVPZph.7gnQVT4jALCBYWTQHGB10PE!/r");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-y: -20px;
+  background-position-x: center;
+  background-size: 110%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bbg2 {
+  width: 100%;
+  height: 500px;
+  /* background-color: teal; */
+  background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q2sSSoy/jASqEt644m*KNERKGtvN1TyYp4nih0izSPa4Er1eZF3cQSi0gE0HI9DJMoRdVOVl2IO.tbQY6wOKoo2s.1ANVleseu3tuJu7rfuv*MY9FqM!/r");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-y: 0px;
+  background-position-x: center;
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bbg3 {
+  width: 100%;
+  height: 500px;
+  /* background-color: teal; */
+  /* background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1ajCNe7y.qtDOZM3AQNz49oS*lXvBM1Zw5.3rywafDx3ZE0MDVBF3sNsv*v0vaTv0bGZDZIZb3VQ321ZdGfqscQ!/r"); */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-y: -280px;
+  background-position-x: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bbg4 {
+  width: 100%;
+  height: 500px;
+  /* background-color: teal; */
+  /* background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1ZougtTlL*2MMSL4DDBaKW28cIXKUmYd08cBzs5ccLCGq9jQTTtt9A6kVUHIg33Ie.hf*btGzGzWZd5*kmapMQU!/r"); */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-y: -70px;
+  background-position-x: center;
+  background-size: 120%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.content .title {
+  color: white;
+  width: 100%;
+  height: 150px;
+  line-height: 1.2;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 12px auto;
+  margin-bottom: 25px;
+}
+
+.title span {
+  margin: 20px 0;
+  display: block;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.753);
+}
+
+.content {
+  width: 100%;
+
+  line-height: 1.7;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(221, 221, 221);
+  margin: 420px auto;
+  margin-bottom: 150px;
+  /* background-color: rgba(50, 50, 50, 0.658); */
+}
+
+.content #img1 {
+  width: 100%;
+  height: 700px;
+  background: url("../images/blog/choice/shop0.jpg") no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 10px 0;
+}
+
+.content #img2 {
+  width: 100%;
+  height: 600px;
+  background: url("../images/blog/choice/shop.jpg") no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 10px 0;
+}
+
+img {
+  margin: 20px 0;
+}
+
+.pager {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 200px;
+  display: grid;
+  grid-template-rows: 200px;
+  grid-template-columns: 50% 50%;
+}
+
+.pager a {
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #262626;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-in-out;
+  color: rgba(255, 255, 255, 0.726);
+  cursor: pointer;
+}
+
+/* .pager a:first-of-type:hover{
+      background-image: url("../images/douban.jpg");
+      transition: .2s ease-in-out;
+  } */
+
+.pager a span {
+  margin-top: 20px;
+  font-size: 35px;
+  display: block;
+  font-weight: 500;
+  color: white;
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+
+.pager a:hover {
+  font-size: 20px;
+  font-weight: 300;
+  background-color: #373737;
+  color: white;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.pager:first-child {
+  grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.pager:last-child {
+  grid-area: 1 / 2 / span 1 / span 1;
+}
