@@ -3,13 +3,19 @@ class Star {
     this.posx = random(-width, width);
     this.posy = random(-height, height);
     this.z = random(width);
-    this.speed = 0;
+    this.speed = 30;
     this.r = 0;
     this.pz = this.z;
   }
 
   update() {
-    this.speed = map(mouseY, 0, height, 1, 28);
+    // this.speed = map(mouseY, 0, height, 1, 28);
+    // this.speed = this.speed - 5;
+    if (this.speed > 1) {
+      this.speed = this.speed - 0.1;
+    } else {
+      this.speed = 1;
+    }
     this.z = this.z - this.speed;
 
     if (this.z < 1) {
