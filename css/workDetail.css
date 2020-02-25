@@ -51,10 +51,11 @@
   width: 100%;
   height: 500px;
   /* background-color: teal; */
-  /* background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1ZougtTlL*2MMSL4DDBaKW28cIXKUmYd08cBzs5ccLCGq9jQTTtt9A6kVUHIg33Ie.hf*btGzGzWZd5*kmapMQU!/r"); */
+  /* background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q2blVad/jASqEt644m*KNERKGtvN1bxGmlRDxCg7uJn8CqxiiefNFANJADPvm4cBalldC*52rh6a1sspgDkEaX9rku4kcv072*m7avMdxFUTLEEHw9k!/r"); */
+  background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q2blVad/jASqEt644m*KNERKGtvN1YjLHbuE*UtOxvbfzQ6ngo7uFcfpdfawpSZ1azgKTw.XGVrUT5TX.kj0qUJDBxxdjtfyr3rHoaUrZStYlxkIOtU!/r");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position-y: -70px;
+  background-position-y: -40px;
   background-position-x: center;
   background-size: 120%;
   position: absolute;
