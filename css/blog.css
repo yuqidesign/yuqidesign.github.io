@@ -1,86 +1,193 @@
-.container .blogs {
-  margin-top: 30px;
-  margin-bottom: 200px;
-  width: 100%;
-  height: 1200px;
+@media only screen and (min-width: 520px) {
+  .container .blogs {
+    margin-top: 30px;
+    margin-bottom: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    margin-top: 100px;
+    font-size: 70px;
+    color: white;
+    font-weight: 700;
+  }
+
+  .blogs a {
+    width: 100%;
+    display: block;
+    height: 250px;
+    background-color: #262626;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 10px;
+  }
+
+  .blogs a #blogImage0 {
+    background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1ZougtTlL*2MMSL4DDBaKW28cIXKUmYd08cBzs5ccLCGq9jQTTtt9A6kVUHIg33Ie.hf*btGzGzWZd5*kmapMQU!/r")
+      no-repeat;
+    background-position: center 90%;
+    background-size: 270%;
+  }
+
+  .blogs a #blogImage1 {
+    background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1ajCNe7y.qtDOZM3AQNz49oS*lXvBM1Zw5.3rywafDx3ZE0MDVBF3sNsv*v0vaTv0bGZDZIZb3VQ321ZdGfqscQ!/r")
+      no-repeat;
+    background-position: center 98%;
+    background-size: 350%;
+  }
+
+  .blogs a #blogImage2 {
+    background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1R3L7r2c5mwiXaW.h*4sOnUmMfHgjSKgWYhw1PWMhaAI5a8bSMa20EBzWmwYTmW2.fvssrSI9PulMTuCxwLXO8s!/r")
+      no-repeat;
+    background-position: center 100%;
+    background-size: 230%;
+  }
+
+  .blogs a #blogImage3 {
+    background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1RGNxMGXsfriEnSiuLX9.wqPSNzciA3fJItx6FjTihc.*S9GJoZzQeclp3bsnb3B8C0DTrPfYEsg4344yblZI0k!/r");
+    background-position: center 97%;
+    background-size: 250%;
+  }
+
+  .blogs a .bIntro {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: white;
+    padding: 30px;
+    position: relative;
+  }
+
+  .blogs a:hover,
+  .blogs .more:hover {
+    background-color: #373737;
+    transition: 0.2s ease-in-out;
+  }
+
+  .blogs a .bIntro span {
+    font-size: 20px;
+    display: block;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 0.705);
+    position: absolute;
+    bottom: 30px;
+  }
+
+  .blogs .more {
+    height: 150px;
+    width: 100%;
+    background-color: #262626;
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+    color: #555555;
+  }
 }
 
-h1 {
-  margin-top: 100px;
-  font-size: 70px;
-  color: white;
-  font-weight: 700;
-}
+@media only screen and (max-width: 520px) {
+  .container .blogs {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    width: 90%;
+    box-sizing: content-box;
+  }
 
-.blogs a {
-  width: 100%;
-  display: block;
-  height: 250px;
-  background-color: #262626;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr;
-  margin-bottom: 10px;
-}
+  h1 {
+    margin: 80px auto;
+    margin-bottom: 0;
+    width: 90%;
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+  }
 
-.blogs a #blogImage0 {
-  background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1ZougtTlL*2MMSL4DDBaKW28cIXKUmYd08cBzs5ccLCGq9jQTTtt9A6kVUHIg33Ie.hf*btGzGzWZd5*kmapMQU!/r")
-    no-repeat;
-  background-position: center 90%;
-  background-size: 270%;
-}
+  .blogs .bItem1 {
+    background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1ZougtTlL*2MMSL4DDBaKW28cIXKUmYd08cBzs5ccLCGq9jQTTtt9A6kVUHIg33Ie.hf*btGzGzWZd5*kmapMQU!/r")
+      no-repeat;
+    background-position: center 125%;
+    background-size: 250%;
+    display: relative;
+    height: 320px;
+    margin: 5px 0;
+  }
 
-.blogs a #blogImage1 {
-  background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1ajCNe7y.qtDOZM3AQNz49oS*lXvBM1Zw5.3rywafDx3ZE0MDVBF3sNsv*v0vaTv0bGZDZIZb3VQ321ZdGfqscQ!/r")
-    no-repeat;
-  background-position: center 98%;
-  background-size: 350%;
-}
+  .blogs .bItem2 {
+    background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1ajCNe7y.qtDOZM3AQNz49oS*lXvBM1Zw5.3rywafDx3ZE0MDVBF3sNsv*v0vaTv0bGZDZIZb3VQ321ZdGfqscQ!/r")
+      no-repeat;
+    background-position: center 125%;
+    background-size: 250%;
+    display: relative;
+    height: 320px;
+    margin: 5px 0;
+  }
 
-.blogs a #blogImage2 {
-  background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1R3L7r2c5mwiXaW.h*4sOnUmMfHgjSKgWYhw1PWMhaAI5a8bSMa20EBzWmwYTmW2.fvssrSI9PulMTuCxwLXO8s!/r")
-    no-repeat;
-  background-position: center 100%;
-  background-size: 230%;
-}
+  .blogs .bItem3 {
+    background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1R3L7r2c5mwiXaW.h*4sOnUmMfHgjSKgWYhw1PWMhaAI5a8bSMa20EBzWmwYTmW2.fvssrSI9PulMTuCxwLXO8s!/r")
+      no-repeat;
+    background-position: center 125%;
+    background-size: 250%;
+    display: relative;
+    height: 320px;
+    margin: 5px 0;
+  }
 
-.blogs a #blogImage3 {
-  background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1RGNxMGXsfriEnSiuLX9.wqPSNzciA3fJItx6FjTihc.*S9GJoZzQeclp3bsnb3B8C0DTrPfYEsg4344yblZI0k!/r");
-  background-position: center 97%;
-  background-size: 250%;
-}
+  .blogs .bItem4 {
+    background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q1FxsOO/jASqEt644m*KNERKGtvN1RGNxMGXsfriEnSiuLX9.wqPSNzciA3fJItx6FjTihc.*S9GJoZzQeclp3bsnb3B8C0DTrPfYEsg4344yblZI0k!/r")
+      no-repeat;
+    background-position: center 125%;
+    background-size: 250%;
+    display: relative;
+    height: 320px;
+    margin: 5px 0;
+  }
 
-.blogs a .bIntro {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 1.2;
-  color: white;
-  padding: 30px;
-  position: relative;
-}
+  .blogs .bItem1 .bIntro,
+  .blogs .bItem2 .bIntro,
+  .blogs .bItem3 .bIntro,
+  .blogs .bItem4 .bIntro {
+    height: 50%;
+    width: 100%;
+    background-color: #262626;
+    padding: 20px;
+    box-sizing: border-box;
+    display: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 28px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    transition: ease-in-out 0.2s;
+  }
 
-.blogs a:hover,
-.blogs .more:hover {
-  background-color: #373737;
-  transition: 0.2s ease-in-out;
-}
+  .blogs a:hover,
+  .blogs .more:hover {
+    background-color: #373737;
+    transition: 0.2s ease-in-out;
+  }
 
-.blogs a .bIntro span {
-  font-size: 20px;
-  display: block;
-  font-weight: 300;
-  line-height: 1.2;
-  color: rgba(255, 255, 255, 0.705);
-  position: absolute;
-  bottom: 30px;
-}
+  .blogs a .bIntro span {
+    font-size: 20px;
+    display: block;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 30px;
+  }
 
-.blogs .more {
-  height: 150px;
-  width: 100%;
-  background-color: #262626;
-  text-align: center;
-  line-height: 150px;
-  font-size: 30px;
-  color: #555555;
+  .blogs .more {
+    height: 70px;
+    width: 100%;
+    background-color: #262626;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    color: #555555;
+  }
 }

@@ -12,7 +12,7 @@ function setup() {
   canvas.style("position", "fixed");
   canvas.style("z-index", "-1");
   noStroke();
-  for (let i = 0; i < 700; i++) {
+  for (let i = 0; i < 2000; i++) {
     stars.push(new Star());
   }
 }
