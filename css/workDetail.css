@@ -344,20 +344,20 @@
     width: 100%;
     height: 200px;
     margin-bottom: 70px;
-    display: grid;
-    grid-template-rows: 200px;
-    grid-template-columns: 50% 50%;
+    display: flex;
   }
 
   .pager a {
-    padding: 30px;
+    padding: 18px;
     box-sizing: border-box;
     background-color: #262626;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 300;
     transition: 0.2s ease-in-out;
     color: rgba(255, 255, 255, 0.726);
     cursor: pointer;
+    flex: 1;
+    height: 120px;
   }
 
   /* .pager a:first-of-type:hover{
@@ -367,7 +367,7 @@
 
   .pager a span {
     margin-top: 20px;
-    font-size: 35px;
+    font-size: 24px;
     display: block;
     font-weight: 500;
     color: white;
@@ -382,13 +382,5 @@
     color: white;
     transition: 0.2s ease-in-out;
     cursor: pointer;
-  }
-
-  .pager:first-child {
-    grid-area: 1 / 1 / span 1 / span 1;
-  }
-
-  .pager:last-child {
-    grid-area: 1 / 2 / span 1 / span 1;
   }
 }
