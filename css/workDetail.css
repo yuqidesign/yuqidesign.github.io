@@ -207,7 +207,7 @@
 
 @media only screen and (max-width: 520px) {
   .bbg {
-    width: 100%;
+    width: 100vw;
     height: 280px;
     /* background-color: teal; */
     background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q3l9oZB/jASqEt644m*KNERKGtvN1auyrsMuS63lAOjMrSEHlBq4X0L5Pxuk5XEoijxDffbO9N46C1SPxnqiVmVPZph.7gnQVT4jALCBYWTQHGB10PE!/r");
