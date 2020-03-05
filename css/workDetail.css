@@ -8,7 +8,7 @@
     height: 500px;
     /* background-color: teal; */
     background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q3l9oZB/jASqEt644m*KNERKGtvN1auyrsMuS63lAOjMrSEHlBq4X0L5Pxuk5XEoijxDffbO9N46C1SPxnqiVmVPZph.7gnQVT4jALCBYWTQHGB10PE!/r");
-
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position-y: -20px;
     background-position-x: center;
@@ -23,7 +23,7 @@
     height: 500px;
     /* background-color: teal; */
     background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q2sSSoy/jASqEt644m*KNERKGtvN1TyYp4nih0izSPa4Er1eZF3cQSi0gE0HI9DJMoRdVOVl2IO.tbQY6wOKoo2s.1ANVleseu3tuJu7rfuv*MY9FqM!/r");
-
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position-y: 0px;
     background-position-x: center;
@@ -38,7 +38,7 @@
     height: 500px;
     /* background-color: teal; */
     background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q4bsQkq/jASqEt644m*KNERKGtvN1YkBH4Tta1fGwBZwdOCP5gigI3.cibYjjrWumQu0wg1aI8EjKi5g4mGoWtR9F7hOHAjKKqqT5oF9Q6p*icDDcjg!/r");
-
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position-y: 0;
     background-position-x: center;
@@ -54,7 +54,7 @@
     /* background-color: teal; */
     /* background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q2blVad/jASqEt644m*KNERKGtvN1bxGmlRDxCg7uJn8CqxiiefNFANJADPvm4cBalldC*52rh6a1sspgDkEaX9rku4kcv072*m7avMdxFUTLEEHw9k!/r"); */
     background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q2blVad/jASqEt644m*KNERKGtvN1YjLHbuE*UtOxvbfzQ6ngo7uFcfpdfawpSZ1azgKTw.XGVrUT5TX.kj0qUJDBxxdjtfyr3rHoaUrZStYlxkIOtU!/r");
-
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position-y: -40px;
     background-position-x: center;
@@ -70,7 +70,7 @@
     /* background-color: teal; */
     background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q2AzwgM/jASqEt644m*KNERKGtvN1UVATWV5G.8EYzzQYhvjlPjBhXbMDtQCbFEntn35cPNKscEuax6RbGP3fVF1FS5MmD1ZY0g7Y3a9AJ1FMrEKgSI!/r");
     /* background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q2AzwgM/jASqEt644m*KNERKGtvN1S5GsAcjN9dY*Qh5YyEEjG5tYjaPBfSMsoogCLG6BfcVgPewJyAoMBe72dfeiuZhEoqHGZenSdOzxCPU0dgyviY!/r"); */
-
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position-y: -20px;
     background-position-x: center;
@@ -86,7 +86,7 @@
     /* background-color: teal; */
     background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q0GNhTs/jASqEt644m*KNERKGtvN1X.9lWJFcVbcomBVSNQP*6C11J5SEyxx3VWBA6gOL5sw9xt4If9U99cTQ6OZn3Fw8w61haIDZTjhnkt*.rGjSto!/r");
     /* background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q2AzwgM/jASqEt644m*KNERKGtvN1S5GsAcjN9dY*Qh5YyEEjG5tYjaPBfSMsoogCLG6BfcVgPewJyAoMBe72dfeiuZhEoqHGZenSdOzxCPU0dgyviY!/r"); */
-
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position-y: -20px;
     background-position-x: center;
@@ -146,12 +146,8 @@
   }
   .content .pic img {
     width: 1152px;
-  }
-
-  img {
     margin: 20px 0;
   }
-
   .pager {
     width: 100%;
     height: 200px;
@@ -164,18 +160,14 @@
   .pager a {
     padding: 30px;
     box-sizing: border-box;
-    background-color: #262626;
+    background-color: rgba(38, 38, 38, 0.426);
+    backdrop-filter: blur(5px);
     font-size: 20px;
     font-weight: 300;
     transition: 0.2s ease-in-out;
     color: rgba(255, 255, 255, 0.726);
     cursor: pointer;
   }
-
-  /* .pager a:first-of-type:hover{
-      background-image: url("../images/douban.jpg");
-      transition: .2s ease-in-out;
-  } */
 
   .pager a span {
     margin-top: 20px;
@@ -351,7 +343,8 @@
   .pager a {
     padding: 18px;
     box-sizing: border-box;
-    background-color: #262626;
+    background-color: rgba(38, 38, 38, 0.426);
+    backdrop-filter: blur(5px);
     font-size: 15px;
     font-weight: 300;
     transition: 0.2s ease-in-out;
@@ -360,11 +353,6 @@
     flex: 1;
     height: 120px;
   }
-
-  /* .pager a:first-of-type:hover{
-      background-image: url("../images/douban.jpg");
-      transition: .2s ease-in-out;
-  } */
 
   .pager a span {
     margin-top: 20px;
