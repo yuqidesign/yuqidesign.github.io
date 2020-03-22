@@ -25,6 +25,13 @@
     background-color: #262626;
   }
 
+  #wi0 {
+    background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q0bO4Bz/jASqEt644m*KNERKGtvN1eFZqO*zrlVWIqq4De8R1SjQo.4E.07fHbApvF9UuFaduIL8lHT72SAlsrY1EP.xMYuZKSsbEazOAlC4ku*GxAo!/r")
+      center;
+    background-size: 100%;
+    transition: ease-in-out 0.2s;
+  }
+
   #wi1 {
     background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q3kRdes/jASqEt644m*KNERKGtvN1QPV2ahgaqPhotpDreK7NSh7G3vb85vzBPvnXD5rVkud0a*ork*huQxOynmkUQQfEbEChkoL9jwfSjLDmv7XgK4!/r")
       center;
@@ -77,12 +84,18 @@
   #wi6:hover,
   #wi1:hover,
   #wi2:hover,
+  #wi0:hover,
   #wi3:hover,
   #wi4:hover,
   #wi5:hover,
   #wi7:hover {
     background-size: 105%;
     transition: ease-in-out 0.2s;
+  }
+
+  .container .works #wi0 .intro,
+  .container .works #wi0 .intro span {
+    color: rgb(29, 38, 57);
   }
 
   .container .works .intro {
@@ -133,6 +146,14 @@
 
   .works .workItem {
     background-color: #262626;
+  }
+
+  #wi0 {
+    background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q0bO4Bz/jASqEt644m*KNERKGtvN1eFZqO*zrlVWIqq4De8R1SjQo.4E.07fHbApvF9UuFaduIL8lHT72SAlsrY1EP.xMYuZKSsbEazOAlC4ku*GxAo!/r")
+      center;
+    background-size: 100%;
+    transition: ease-in-out 0.2s;
+    height: 180px;
   }
 
   #wi1 {
@@ -192,6 +213,7 @@
   }
 
   #wi6:hover,
+  #wi0:hover,
   #wi1:hover,
   #wi2:hover,
   #wi3:hover,
