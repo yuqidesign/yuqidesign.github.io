@@ -52,6 +52,12 @@
     background-size: 250%;
   }
 
+  .blogs a #blogImage4 {
+    background-image: url("http://r.photo.store.qq.com/psc?/V11TKo8Q14zhK5/jASqEt644m*KNERKGtvN1fMRtYJV8cMOIxUYsAgDs8zGKLpXc*7NCfwQDAtgB8o5wipId0M8yd4MliykZ64bURVAIpE0pVdZtrtvNaGCw.w!/r");
+    background-position: center center;
+    background-size: 250%;
+  }
+
   .blogs a .bIntro {
     font-size: 40px;
     font-weight: 700;
@@ -146,10 +152,21 @@
     margin: 5px 0;
   }
 
+  .blogs .bItem5 {
+    background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q14zhK5/jASqEt644m*KNERKGtvN1fMRtYJV8cMOIxUYsAgDs8zGKLpXc*7NCfwQDAtgB8o5wipId0M8yd4MliykZ64bURVAIpE0pVdZtrtvNaGCw.w!/r")
+      no-repeat;
+    background-position: center 290%;
+    background-size: 250%;
+    display: relative;
+    height: 320px;
+    margin: 5px 0;
+  }
+
   .blogs .bItem1 .bIntro,
   .blogs .bItem2 .bIntro,
   .blogs .bItem3 .bIntro,
-  .blogs .bItem4 .bIntro {
+  .blogs .bItem4 .bIntro,
+  .blogs .bItem5 .bIntro {
     height: 50%;
     width: 100%;
     background-color: #262626;

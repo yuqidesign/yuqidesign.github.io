@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>BLOGS of YUQI</title>
+    <title>Reverse Stickers</title>
     <link rel="icon" href="./images/ICON.png" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/common.css" />
@@ -16,12 +16,13 @@
       href="https://fonts.font.im/css?family=IBM+Plex+Sans:300,300i,500,500i,700,700i"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/blog.css" />
+    <link rel="stylesheet" href="./css/blogDetail.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script>
     <script src="./js/Star.js"></script>
     <script src="./js/canvas.js"></script>
   </head>
   <body>
+    <div class="bbg5"></div>
     <div class="container">
       <nav class="nav">
         <div class="logo">
@@ -40,51 +41,47 @@
         </div>
       </nav>
 
-      <h1>BLOGS</h1>
-      <div class="blogs">
-        <a href="blog_stickers.html" class="bItem5">
-          <div id="blogImage4"></div>
-          <div class="bIntro">
-            Reverse Stickers
-            <span>2020.2.29</span>
-          </div>
-        </a>
-
-        <a href="blog_Replay.html" class="bItem1">
-          <div id="blogImage0"></div>
-          <div class="bIntro">
-            Replay Experience in TikTok
-            <span>2020.2.19</span>
-          </div>
-        </a>
-
-        <a href="blog_leanUX.html" class="bItem2">
-          <div id="blogImage1"></div>
-          <div class="bIntro">
-            Thoughts on Lean UX
-            <span>2020.2.15</span>
-          </div>
-        </a>
-
-        <a href="blog_Choice.html" class="bItem3">
-          <div id="blogImage2"></div>
-          <div class="bIntro">
-            Choice Overload
-            <span>2020.2.13</span>
-          </div>
-        </a>
-
-        <a href="./blog_Douban.html" class="bItem4">
-          <div id="blogImage3"></div>
-          <div class="bIntro">
-            Modality in Douban APP
-            <span>2019.12.21</span>
-          </div>
-        </a>
-
-        <div class="more">
-          more to come...
+      <div class="content">
+        <div class="title">
+          Reverse Stickers
+          <span>2020.2.29</span>
         </div>
+        &emsp; Stickers have become normal when we chat online. It could express
+        more emotions than texts. However, I found there’s a detail could be
+        improved to make stickers more expressive—change direction of a
+        stickers.
+        <br />&emsp;Currently, just as pictures shown below, when sent to
+        others, the stickers stay the direction.
+        <div style="text-align: center; margin-top: 20px;">
+          <img
+            style="width: 100%;"
+            src="http://r.photo.store.qq.com/psc?/V11TKo8Q14zhK5/jASqEt644m*KNERKGtvN1d6dkwNQtIEB0wWLM2c7VYlWj57Frpf.pazJUD3bzudgkn6897Lf.r7j7xeK3DIeF2R.jXbfXmEgjEAVO1*8BaM!/r"
+            alt=""
+          />
+        </div>
+        <br />&emsp;If stickers towards the right direction, chat would be more
+        interesting like this.
+
+        <div style="text-align: center; margin-top: 20px;">
+          <img
+            style="width: 100%;"
+            src="http://r.photo.store.qq.com/psc?/V11TKo8Q14zhK5/jASqEt644m*KNERKGtvN1SqLGyw0lF8ZurDlXXODCj4*GAUtlePZNxrUVrK7uX1rEND3S0SUf4OWjPzqUjMcR2IqCZXrc*RTQBZz08Yul6g!/r"
+            alt=""
+          />
+        </div>
+        <br />&emsp;Now I am exploring to achieve this by deep learing in JS. I
+        will report my progress later.
+      </div>
+
+      <div class="pager">
+        <a href="blog_leanUX.html">
+          previous
+          <span>Thoughts on Lean UX</span>
+        </a>
+        <a href="./blog_Douban.html">
+          next
+          <span>Modality in Douban APP</span>
+        </a>
       </div>
 
       <footer class="contact" id="contact">
@@ -99,9 +96,5 @@
         </div>
       </footer>
     </div>
-
-    <!-- <script type="text/javascript" color="255, 255, 255" zindex="-1" opacity=".5" count="200" src="./js/canvas.js"></script> -->
-
-    <!-- <canvas width="100%" height="100%" style="position: fixed; top: 0px; left: 0px; z-index: -1;"></canvas> -->
   </body>
 </html>
