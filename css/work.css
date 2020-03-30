@@ -47,9 +47,9 @@
   }
 
   #wi3 {
-    background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q3kRdes/jASqEt644m*KNERKGtvN1d5Aziq2agPr0McvyAWAGuWPvI5J0.aioiMwvl77P1D1GY5gudzdAISYNObvCc51ouznIzamZcGL3iTVMhk7Dic!/r")
+    background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q4bsQkq/jASqEt644m*KNERKGtvN1RGCmLIqtY67uNvDUXjjwDn8BUK*vPJrRFNpACDU0Et5C*czvvP1FGXOc2FSX3qWzr.awruvO935AeOtb5oFZu0!/r")
       center;
-    background-size: 100%;
+    background-size: 150%;
     transition: ease-in-out 0.2s;
   }
 
@@ -85,11 +85,15 @@
   #wi1:hover,
   #wi2:hover,
   #wi0:hover,
-  #wi3:hover,
   #wi4:hover,
   #wi5:hover,
   #wi7:hover {
     background-size: 105%;
+    transition: ease-in-out 0.2s;
+  }
+
+  #wi3:hover {
+    background-size: 155%;
     transition: ease-in-out 0.2s;
   }
 
@@ -173,7 +177,7 @@
   }
 
   #wi3 {
-    background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q3kRdes/jASqEt644m*KNERKGtvN1d5Aziq2agPr0McvyAWAGuWPvI5J0.aioiMwvl77P1D1GY5gudzdAISYNObvCc51ouznIzamZcGL3iTVMhk7Dic!/r")
+    background: url("http://r.photo.store.qq.com/psc?/V11TKo8Q4bsQkq/jASqEt644m*KNERKGtvN1RGCmLIqtY67uNvDUXjjwDn8BUK*vPJrRFNpACDU0Et5C*czvvP1FGXOc2FSX3qWzr.awruvO935AeOtb5oFZu0!/r")
       center;
     background-size: 100%;
     transition: ease-in-out 0.2s;
