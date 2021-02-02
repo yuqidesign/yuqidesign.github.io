@@ -66,24 +66,33 @@
 
   .container .nav .navitem a {
     line-height: 100px;
-    margin: 0 25px;
-    padding: 15px 0;
+    margin: 0 12px;
+    padding: 12px 16px;
     color: rgba(255, 255, 255, 0.746);
     box-sizing: border-box;
     font-size: 20px;
+    border: 1px solid rgba(255, 255, 255, 0);
     font-weight: 500;
     transition: ease-in-out 0.2s;
   }
 
-  .container .nav .navitem :last-child {
+  /* .container .nav .navitem :last-child {
     padding-right: 0;
+  } */
+
+  .container .nav .navitem a:active {
+    transform: scale(0.9);
+    transition: ease-in-out 0.1s;
+    background-color: rgba(255, 255, 255, 0.24);
   }
 
   .container .nav .navitem a:hover {
     color: white;
     text-shadow: 2px 2px 0px #db296d;
     transition: ease-in-out 0.2s;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.459);
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    background-color: rgba(255, 255, 255, 0.12);
   }
 
   .contact {
